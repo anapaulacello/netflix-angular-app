@@ -1,0 +1,25 @@
+@import url('http://fonts.cdnfonts.com/css/netflix-sans%27');
+.films-container{
+    padding: 20px 0;
+    font-family: 'Netflix Sans', sans-serif;
+    margin: auto 50px;
+    h2{
+        padding: 20px 0;
+    }
+    .films-gallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        img{
+            height: 130px;
+            border-radius: 3px;
+            &:hover{
+                transform: scale(1.5);
+                transition: 0.5s;
+            }
+            
+        }
+        
+    }
+}
